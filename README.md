@@ -4,6 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project embed some nice Angular animations example.
 
+## NPM package to INSTALL 
+- [bootstrap](https://www.npmjs.com/package/bootstrap) , version 4.x
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
