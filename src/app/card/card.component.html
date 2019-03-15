@@ -1,0 +1,7 @@
+<div class="card bg-dark mb-1 white-text">
+  <div class="card-header" (click)="toggle()">{{ title }}</div>
+  <div class="card-body" style="overflow: hidden"
+     [@collapsable]="state">
+    <ng-content></ng-content>
+  </div>
+</div>
