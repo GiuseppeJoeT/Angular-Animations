@@ -6,14 +6,17 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   animations: [
     trigger('collapsable', [
       state('opened', style({
-        height:'*'
+        height: '200px'
       })),
       state('closed', style({
         height: 0,
         padding: 0
       })),
-      transition('opened <=> closed', [
+      transition('opened => closed', [
         animate('0.7s cubic-bezier(0.77, 0, 0.175, 1)')
+      ]),
+      transition('closed => opened', [
+        animate('1.5s')
       ])
     ])
   ],
