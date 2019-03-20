@@ -6,7 +6,8 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
   animations: [
     trigger('collapsable', [
       state('opened', style({
-        height: '200px'
+        height: '*'
+        // asterisco, aprire tanto quanto basta per visualizzare testo
       })),
       state('closed', style({
         height: 0,
