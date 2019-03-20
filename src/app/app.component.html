@@ -1,14 +1,26 @@
-<!-- mt-3 - grid css   -->
+<!-- mt-3 - bootstrap  -->
 <div class="container mt-3">
-  <anim-card title="FIRST PANEL">
+  <anim-card title="PRIMO PRODOTTO">
     Animation provides the illusion of motion: HTML elements change styling over time.
   </anim-card>
 
   <anim-card title="SECOND PANEL">
     Un oggetto nella realtà non inizia istantaneamente il suo movimento e la sua velocità non rimane costante.
-    Quando apriamo il cassetto, prima gli imprimiamo un’accelerazione e poi lo facciamo rallentare. Quando qualcosa cade,
+    Quando apriamo il cassetto, pri ma gli imprimiamo un’accelerazione e poi lo facciamo rallentare. Quando qualcosa cade,
     prima accelera verso il basso, poi rimbalza in alto dopo aver colpito il pavimento.
     Questa pagina ti aiuta ogni volta a scegliere la funzione di
     interpolazione desiderata.
   </anim-card>
+
+  <!-- bottoni -->
+  <anim-animated-button (click)="active = 'one'" [selected]="active === 'one'">BUTTON ONE</anim-animated-button>
+  <anim-animated-button (click)="active = 'two'" [selected]="active === 'two'">BUTTON TWO</anim-animated-button>
+  <anim-animated-button (click)="active = 'three'" [selected]="active === 'three'">BUTTON THREE</anim-animated-button>
+
+  <div class="mt-3">
+    <h2>Angular Foundamentals</h2>
+    <p>Esempio di <i>interpolation</i>: {{ template_tags }}</p>
 </div>
+</div>
+
+
