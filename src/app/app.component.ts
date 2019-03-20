@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-Animations';
-}
+  // title = 'ng-Animations';
+
+  template_tags = 'testo di tipo stringa dinamico.';
+
+  active = 'one';
+  }
