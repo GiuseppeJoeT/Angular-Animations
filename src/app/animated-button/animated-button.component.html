@@ -1,0 +1,11 @@
+<!-- @buttonAnimated -> animation trigger -->
+<div class="container mt-3">
+      <!-- -->
+  <button class="button"
+          [disabled]="selected"
+          [@buttonAnimated]="state"
+          (mouseover)="state = 'over'"
+          (mouseout)="state = 'out'">
+    <ng-content></ng-content>
+  </button>
+</div>
