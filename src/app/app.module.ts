@@ -4,11 +4,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
+import { AnimatedButtonComponent } from './animated-button/animated-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    AnimatedButtonComponent
   ],
   imports: [
     BrowserModule,
