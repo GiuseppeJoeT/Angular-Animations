@@ -5,12 +5,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { AnimatedButtonComponent } from './animated-button/animated-button.component';
+import { AnimatedTextComponent } from './animated-text/animated-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    AnimatedButtonComponent
+    AnimatedButtonComponent,
+    AnimatedTextComponent
   ],
   imports: [
     BrowserModule,
