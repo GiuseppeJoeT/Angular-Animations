@@ -44,7 +44,7 @@ export class AnimatedButtonComponent implements OnChanges  {
 
   // ngOnChanges verrà invocato ogni volta che la proprietà in Input cambia
   ngOnChanges(changes: SimpleChanges) {
-    console.log(changes);
+    // console.log(changes);
 
     // se proprietà selected è cambiata
     if (changes.selected) {
